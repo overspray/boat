@@ -1,0 +1,28 @@
+<!DOCTYPEhtml>
+<html>
+<head>
+<title>Index page</title>
+<link rel="stylesheet" type="text/css"  href="mystyles.css">
+</head>
+<body>
+  <div class="menu_bar">
+    <ul>
+      <li>
+        <a href="index.html">Home</a>
+      </li>
+      <li>
+        <a href="boat_input.php">Add Boats</a>
+      </li>
+    </ul>
+  </div>
+<h1>Selection page</h1>
+<form action = 'show_boat.php' method='POST'>
+Boat Name: <input type='text' name = 'boat_name' maxlength="50" /><br />
+<input type='submit' name='display_button' value='showboat' />
+<input type='submit' name='display_button' value='boats' />
+<input type='submit' name='display_button' value='delete' />
+<input type='button' onclick="location.href='boat_input.php'" value='add' />
+</form>
+</form>
+</body>
+</html>
